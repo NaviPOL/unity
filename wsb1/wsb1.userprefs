@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Skrzynia.cs">
     <Files>
-      <File FileName="Assets\Karabin.cs" Line="30" Column="53" />
-      <File FileName="Assets\Skrzynia.cs" Line="6" Column="15" />
+      <File FileName="Assets\Karabin.cs" Line="5" Column="1" />
+      <File FileName="Assets\Skrzynia.cs" Line="7" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
