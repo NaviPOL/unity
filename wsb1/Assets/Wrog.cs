@@ -9,6 +9,7 @@ public class Wrog : MonoBehaviour {
 	public Transform gracz;
 	public Transform wrog;
 	private NavMeshAgent agent;
+	public Animator anim;
 	void Start () {
 		agent = GetComponent<NavMeshAgent> ();
 		agent.SetDestination (cel.position);
@@ -25,8 +26,10 @@ public class Wrog : MonoBehaviour {
 	}
 	
 	void Update ()
-	{
+	{;
 		if (Vector3.Distance (gracz.transform.position, wrog.transform.position) < 10) {
+			anim.SetFloat ("szybkosc", 8);
+			agent.speed = 8;
 				agent.SetDestination (gracz.position);
 		}
 	}
