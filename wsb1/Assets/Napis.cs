@@ -13,6 +13,6 @@ public class Napis : MonoBehaviour
 
     void Update()
     {
-        someText.text = Toolbox.Instance.zycie.ToString();
+		someText.text = "Życie: " + Toolbox.Instance.zycie.ToString() + "\nAnumicja: "  + Toolbox.Instance.amunicja.ToString()  + "\nPunkty: "  + Toolbox.Instance.punkty.ToString();
     }
 }

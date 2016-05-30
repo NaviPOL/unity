@@ -15,13 +15,15 @@ public class Karabin : MonoBehaviour {
 	void Update () 
 	{
 		fwd = transform.TransformDirection(Vector3.forward);
-		if (Input.GetButtonDown ("Fire1")) {
+		if (Input.GetButtonDown ("Fire1") && Toolbox.Instance.amunicja > 0) {
+			Toolbox.Instance.amunicja--;
 			ps.Play ();
 			GetComponent<AudioSource> ().Play ();
 
 			if (Physics.Raycast (transform.position, fwd, out hit)) {
 				if (hit.transform.tag == "Wrog") {
-					hit.transform.gameObject.SendMessage ("trafiony");	
+					hit.transform.gameObject.SendMessage ("trafiony");
+					Toolbox.Instance.punkty++;
 			}
 			}
 		}

@@ -7,6 +7,8 @@ public class Toolbox : Singleton<Toolbox>
 
     public string myGlobalVar = "whatever";
     public int zycie;
+	public int amunicja;
+	public int punkty;
 
 
     public Language language = new Language();

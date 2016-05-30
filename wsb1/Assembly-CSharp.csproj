@@ -48,11 +48,9 @@
      <Compile Include="Assets\Campfire\Script\FireLightScript.cs" />
      <Compile Include="Assets\Fantasy Skybox FREE\Scripts\FSPlayer.cs" />
      <Compile Include="Assets\Karabin.cs" />
-     <Compile Include="Assets\Menu.cs" />
      <Compile Include="Assets\MonoBehaviourExtended.cs" />
      <Compile Include="Assets\Napis.cs" />
      <Compile Include="Assets\Ogien.cs" />
-     <Compile Include="Assets\Panel.cs" />
      <Compile Include="Assets\Singleton.cs" />
      <Compile Include="Assets\Skrzynia.cs" />
      <Compile Include="Assets\Toolbox.cs" />
@@ -63,7 +61,6 @@
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
-     <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
